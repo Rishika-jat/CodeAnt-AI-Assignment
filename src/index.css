@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Narrow:wght@400;700&family=Sen:wght@400..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter";
+  margin: 0;
+  padding: 0;
+}
+.Repo-main-container {
+  display: flex;
+  flex-direction: row; /* Default flex direction */
+}
+.login-left-main-sec{
+  display: flex;
+}
+
+@media (min-width: 300px) and (max-width: 450px) {
+  .Repo-main-container {
+    flex-direction: column; /* Override for mobile view */
+  }
+  .login-left-main-sec{
+    display: none;
+  }
+  .repo-right-header-sec{
+    flex-direction: column;
+  }
+.repo-left-main-sec{
+  position: static;
+  height: fit-content;
+  width: 90vw;
+}
+.repo-right-main-sec{
+  width: 100vw;
+ 
+}
+.repo-right-search{
+  width:50vw;
+}
+.nav-item{
+  width: 80vw;
+}
+.hamburger{
+display: block;
+}
+.repo-right-inner-sec{
+  margin: 0%;
+  padding: 0%;
+}
+.repo-right-navbar{
+  width: 300px;
+}
+.repo-left-footer{
+  margin-top: -30px;
+  margin-left: 5px;
+}
+
+}
+
