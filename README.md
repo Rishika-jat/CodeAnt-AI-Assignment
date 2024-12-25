@@ -4,7 +4,7 @@
 ## Installation Follow these steps to get the project up and running locally:
  ```bash 
 # Clone the repo
-  git clone https://github.com/your-username/repo-name.git
+  git clone https://github.com/Rishika-jat/CodeAnt-AI-Assignment.git
 # Navigate to the project directory 
    cd repo-name
    
